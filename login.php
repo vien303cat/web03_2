@@ -1,5 +1,5 @@
 <?php 
-if($_POST["acc"] == "admin" && $_POST["pw"] == "1234"){
+if(!empty($_POST["acc"]) && $_POST["acc"] == "admin" && $_POST["pw"] == "1234"){
     echo "<script>document.location.href='admin.php'</script>";
 }
 ?>
