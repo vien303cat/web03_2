@@ -6,3 +6,4 @@ $strtime = strtotime("+6hour");
 $nowday = date("Y-m-d");
 $nowtime = date("Y-m-d H:i:s");
 ?>
+

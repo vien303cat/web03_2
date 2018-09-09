@@ -41,7 +41,7 @@ $c2  = mysqli_fetch_assoc($c1);
     <td width="20%" align="center" valign="middle">預告片海報</td>
     <td width="20%" align="center" valign="middle">預告片片名</td>
     <td width="20%" align="center" valign="middle">預告片排序</td>
-    <td width="20%" align="center" valign="middle">預告片動畫<br>1~4</td>
+    <td width="20%" align="center" valign="middle">預告片動畫<br>1~3</td>
     <td width="20%" align="center" valign="middle">操作</td>
   </tr>
   <?php do{ ?>
