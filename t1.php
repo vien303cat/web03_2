@@ -24,7 +24,7 @@ if($strtime <= $d3){
 }
 ?>
 
-<select id="sel2" onchange="se2()">
+<select id="sel2" name="sel2" onchange="se2()">
 <option>請選擇日期</option>
 <?=$op1?>
 <?=$op2?>

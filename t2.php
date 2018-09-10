@@ -10,7 +10,7 @@ for($i=1;$i<=5;$i++){
 }
 $H = date("H",$strtime);
 if($_POST["s2"] != $nowday){ ?>
-<select id="sel3">
+<select id="sel3" name="sel3">
 <option value="1">14:00~16:00 剩餘座位:<?=$chair[1]?></option>
 <option value="2">16:00~18:00 剩餘座位:<?=$chair[2]?></option>
 <option value="3">18:00~20:00 剩餘座位:<?=$chair[3]?></option>
@@ -18,7 +18,7 @@ if($_POST["s2"] != $nowday){ ?>
 <option value="5">22:00~24:00 剩餘座位:<?=$chair[5]?></option>
 </select>
 <?php }else{ ?>
-<select id="sel3">
+<select id="sel3" name="sel3">
 <?php if($H < 14){ ?> <option value="1">14:00~16:00 剩餘座位:<?=$chair[1]?></option> <?php } ?>
 <?php if($H < 16){ ?> <option value="2">16:00~18:00 剩餘座位:<?=$chair[2]?></option> <?php } ?>
 <?php if($H < 18){ ?> <option value="3">18:00~20:00 剩餘座位:<?=$chair[3]?></option> <?php } ?>
