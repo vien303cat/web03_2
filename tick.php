@@ -14,7 +14,6 @@
 <body>
 <div id="cover" style="display:none; ">
 	<div id="coverr" style="	width:70%;
-
 	height:70%;
 	position:absolute;
 	background:#ffffff;
